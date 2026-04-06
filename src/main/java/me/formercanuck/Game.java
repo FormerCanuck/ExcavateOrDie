@@ -36,6 +36,8 @@ public class Game {
 
         glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
+//        glfwSetKeyCallback(window, new InputHandler());
+
         double[] lastX = {400}, lastY = {300};
         boolean[] firstMouse = {true};
 

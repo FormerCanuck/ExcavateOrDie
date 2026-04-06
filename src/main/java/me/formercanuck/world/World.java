@@ -7,4 +7,5 @@ import java.util.Map;
 
 public class World {
     public Map<Integer, Entity> entities = new HashMap<>();
+
 }
